@@ -55,7 +55,7 @@ const App = () => {
       <div className="content-overlay">
         {step === 'register' && (
           <div className="register-form">
-            <h1>Регистрация в CarShare</h1>
+            <h1>Регистрация в CarRent</h1>
             <form onSubmit={handleSubmit}>
               {Object.entries(formData).map(([key, value]) => (
                 <div key={key} className="form-group">
